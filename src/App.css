@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* Center horizontally */
+  align-items: center;
+  /* Center vertically */
+  min-width: 320px;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #ffee99;
+  box-sizing: border-box
+}
+
+.App {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.App-logo {
+  /* width: 100%; */
+  max-width: 60%;
+}
+
+.App-subtext {
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #333;
+  /* You can adjust the text color */
+}
+
+@media (max-width: 600px) {
+  .App-subtext {
+    font-size: 14px;
+    /* Smaller font size for screens <= 600px */
+  }
+
+  .App-logo {
+    max-width: 80%;
+    /* Adjust the logo size if needed on small screens */
+  }
+}
